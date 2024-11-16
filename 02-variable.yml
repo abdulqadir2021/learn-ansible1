@@ -1,5 +1,5 @@
 - name: Frontend Playbook
-  hosts: all
+  hosts: local
   vars:
     URL: vars.google.com
   tasks:
