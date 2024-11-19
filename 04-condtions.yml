@@ -1,0 +1,12 @@
+# condition is to determine whether we can run the task or skip it
+- name: Demo on conditions
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Print OS Redhat
+      ansible.builtin.debug:
+        msg: Redhat
+
+    - name: Print OS Ubuntu
+      ansible.builtin.debug:
+        msg: Ubuntu
