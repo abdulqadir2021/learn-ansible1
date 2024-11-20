@@ -4,6 +4,7 @@
   connection: local
   vars:
     to_install: true
+    # ansible booleans are true / false or yes / no Anything is false
   tasks:
     - name: Print OS Redhat
       ansible.builtin.debug:
@@ -26,6 +27,6 @@
 
     - name: Boolean condition
       ansible.builtin.debug:
-        msg: "{{ to_install}}" is true
+        msg: to_install - true
       when: to_install
 
