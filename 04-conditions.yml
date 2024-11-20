@@ -11,4 +11,4 @@
     - name: Print OS Ubuntu
       ansible.builtin.debug:
         msg: Ubuntu
-        when: os == "ubuntu"
+      when: os == "ubuntu"
