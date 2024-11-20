@@ -22,3 +22,4 @@
         msg: Number {{ number }} is even
       when: reminder.stdout == 0
 
+
