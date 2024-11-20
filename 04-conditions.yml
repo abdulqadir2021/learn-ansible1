@@ -14,7 +14,7 @@
       when: os == "ubuntu"
 
     - name: Get reminder
-      ansible.builtin.debug: echo $(({{number}}%2))
+      ansible.builtin.shell: echo $(({{number}}%2))
       register: reminder
 
 
