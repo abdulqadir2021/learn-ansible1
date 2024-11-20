@@ -6,6 +6,6 @@
   ansible.builtin.debug:
     msg: URL - {{ URL }}
 
-- name: Print Print EXAMPLE
+- name: Print EXAMPLE
   ansible.builtin.debug:
     msg: EXAMPLE - {{ EXAMPLE }}
