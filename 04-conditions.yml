@@ -20,6 +20,6 @@
     - name: Print Even Number
       ansible.builtin.debug:
         msg: Number {{ number }} is even
-      when: reminder.stdout == 0
+      when: reminder.stdout == "0"
 
 
