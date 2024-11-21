@@ -7,3 +7,8 @@
         name: zlib
         state: installed
 
+  handlers:
+    - name: Say Hello
+      ansible.builtin.debug:
+        msg: Hello, I am notified
+
